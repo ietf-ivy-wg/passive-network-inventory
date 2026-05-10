@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-07T03:26:03.123044+00:00",
+  "timestamp": "2026-05-10T03:32:56.869220+00:00",
   "repo": "aguoietf/draft-ygb-ivy-passive-network-inventory",
   "labels": [
     {
@@ -882,7 +882,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2026-04-29T14:00:09Z",
-      "updatedAt": "2026-05-06T15:49:27Z",
+      "updatedAt": "2026-05-07T16:10:57Z",
       "baseRepository": "aguoietf/draft-ygb-ivy-passive-network-inventory",
       "baseRefName": "main",
       "baseRefOid": "53da3cdc1a2cdf48532f668946069c54ba33d5e0",
@@ -907,9 +907,37 @@
           "body": "I think Line 141 refer to the fibers/cables that are not currently used/connected. They are \"not powered\" and not \"used to realize the underlying physical infrastructure carrying signals through a network\" as specified in the general description. Could probably better word that.",
           "createdAt": "2026-05-06T15:49:26Z",
           "updatedAt": "2026-05-06T15:49:26Z"
+        },
+        {
+          "author": "sergiobelotti",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> I think Line 141 refer to the fibers/cables that are not currently used/connected. They are \"not powered\" and not \"used to realize the underlying physical infrastructure carrying signals through a network\" as specified in the general description. Could probably better word that.\r\n\r\n@aguoietf : not clear to me the comment and to what is referring to:  Line 141 is in the picture .  \r\n",
+          "createdAt": "2026-05-07T09:20:55Z",
+          "updatedAt": "2026-05-07T09:20:55Z"
+        },
+        {
+          "author": "aguoietf",
+          "authorAssociation": "OWNER",
+          "body": "@sergiobelotti  Line 141 in the .txt:\r\n\"   *  Fibers or other passive elements that are not currently lit or\r\n      carrying traffic, but are still part of the physical\r\n      infrastructure and require inventory representation.\"",
+          "createdAt": "2026-05-07T14:36:10Z",
+          "updatedAt": "2026-05-07T14:36:10Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDONDocYM79D_IH",
+          "commit": {
+            "abbreviatedOid": "f5d58fe"
+          },
+          "author": "sergiobelotti",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-05-07T16:10:57Z",
+          "updatedAt": "2026-05-07T16:10:57Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
