@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-10T03:32:56.869220+00:00",
+  "timestamp": "2026-05-14T03:37:56.758446+00:00",
   "repo": "aguoietf/draft-ygb-ivy-passive-network-inventory",
   "labels": [
     {
@@ -86,15 +86,22 @@
       "labels": [],
       "body": "It is not clear whether there is a need to define some leafref to report the association between a link (in the topology model) and a cable (in the passive inventory model)\r\n\r\nThe following picture tries to explain how this association can be derived from existing information in the topology inventory model (associating a TP with a port component) and the base and passive inventory models:\r\n\r\n[link-cable-relationship-00.pptx](https://github.com/user-attachments/files/18007659/link-cable-relationship-00.pptx)\r\n\r\nSee: https://mailarchive.ietf.org/arch/msg/inventory-yang/MxdA8RUlwuRnIbLKfgR_NFZRB0Y/\r\n",
       "createdAt": "2024-12-04T12:00:03Z",
-      "updatedAt": "2025-04-07T15:01:13Z",
+      "updatedAt": "2026-05-12T13:47:21Z",
       "closedAt": null,
       "comments": [
         {
           "author": "nigel-r-davis",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "As you are aware, in TAPI we concluded that we needed to add a relationship from the link in the functional/logical topology to the passive inventory. BUT we chose to provide a sliding abstraction where the model could be very shallow providing just \"abstract strands\" between relevant passive devices or could provide a deeper model where the abstract strand is a 1:1  to the actual strand.\n\nSo, to the question, yes we do need to provide the opportunity to relate the functional/logical link to the passive inventory model. This should be a conditional opportunity (augment) and it should provide various alternative abstractions.",
           "createdAt": "2025-04-07T15:01:12Z",
           "updatedAt": "2025-04-07T15:01:12Z"
+        },
+        {
+          "author": "italobusi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Based on the discussion during IETF 125, this issue needs to be discussed/addressing in this draft\n\nExample of navigation from link to passive topology are shown in slide 6 of https://datatracker.ietf.org/meeting/125/materials/slides-125-ivy-draft-ietf-ivy-network-inventory-topology-00.pdf\n\nIMHO, it would be good to provide some JSON examples to describe how these two scenarios are addressed\n\nFor the simple scenario, an initial JSON example has been provided in https://github.com/ietf-ivy-wg/network-inventory-topology/pull/28",
+          "createdAt": "2026-05-12T13:47:21Z",
+          "updatedAt": "2026-05-12T13:47:21Z"
         }
       ]
     },
@@ -882,7 +889,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2026-04-29T14:00:09Z",
-      "updatedAt": "2026-05-07T16:10:57Z",
+      "updatedAt": "2026-05-13T14:15:10Z",
       "baseRepository": "aguoietf/draft-ygb-ivy-passive-network-inventory",
       "baseRefName": "main",
       "baseRefOid": "53da3cdc1a2cdf48532f668946069c54ba33d5e0",
@@ -936,6 +943,46 @@
           "createdAt": "2026-05-07T16:10:57Z",
           "updatedAt": "2026-05-07T16:10:57Z",
           "comments": []
+        },
+        {
+          "id": "PRR_kwDONDocYM7-rvsu",
+          "commit": {
+            "abbreviatedOid": "f5d58fe"
+          },
+          "author": "italobusi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Besides a a minor comment on the proposed definition (see https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/pull/32#discussion_r3226927818), I have a major comment on the fact that the branch of this PR is 60 commits behind the main branch.\r\n\r\nIn particular, this branch is not aligned with the Martin Thomson github template (the main branch has been recently updated to align with the template)\r\n\r\nWould it be possible to either align this branch with the main branch?\r\n\r\nAlternatively, I would suggest to close this PR without merging  and to create a new branch (and a new PR) from the main and proposing the same text change as in this PR.\r\n\r\n",
+          "createdAt": "2026-05-12T13:50:51Z",
+          "updatedAt": "2026-05-12T13:56:48Z",
+          "comments": [
+            {
+              "originalPosition": 437,
+              "body": "The \"Passive inventory contains a collection of inventory objects pertaining to the passive infrastructure\" seems a bit circular. I would also add a \"may\" to cover the case of passive components within a managed NE:\n\n```suggestion\n   Passive inventory contains a collection of inventory objects pertaining to the physical network infrastructure that are not powered and may have no direct management communication, and that are used to realize the underlying physical infrastructure carrying signals through a network. Passive inventory includes elements such as optical cables, fiber segments, splice points, closures, ducts, and supporting structures that do not perform active processing, forwarding, or control functions. These objects are maintained for purposes such as identification, location, connectivity, and lifecycle management.\n```",
+              "createdAt": "2026-05-12T13:50:51Z",
+              "updatedAt": "2026-05-12T13:54:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONDocYM7_QXVQ",
+          "commit": {
+            "abbreviatedOid": "f5d58fe"
+          },
+          "author": "italobusi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-05-13T14:15:09Z",
+          "updatedAt": "2026-05-13T14:15:10Z",
+          "comments": [
+            {
+              "originalPosition": 447,
+              "body": "See: https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/pull/32#issuecomment-4389604298",
+              "createdAt": "2026-05-13T14:15:10Z",
+              "updatedAt": "2026-05-13T14:15:10Z"
+            }
+          ]
         }
       ]
     }
