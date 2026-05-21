@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-14T03:37:56.758446+00:00",
+  "timestamp": "2026-05-21T03:58:02.137401+00:00",
   "repo": "aguoietf/draft-ygb-ivy-passive-network-inventory",
   "labels": [
     {
@@ -882,21 +882,21 @@
       "id": "PR_kwDONDocYM7WviLb",
       "title": "initial definition for passive inventory",
       "url": "https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/pull/32",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "aguoietf",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2026-04-29T14:00:09Z",
-      "updatedAt": "2026-05-13T14:15:10Z",
+      "updatedAt": "2026-05-20T14:42:56Z",
       "baseRepository": "aguoietf/draft-ygb-ivy-passive-network-inventory",
       "baseRefName": "main",
       "baseRefOid": "53da3cdc1a2cdf48532f668946069c54ba33d5e0",
       "headRepository": "aguoietf/draft-ygb-ivy-passive-network-inventory",
       "headRefName": "inventory-definition",
       "headRefOid": "f5d58fecc7456fa38195397a89569b777c5e095f",
-      "closedAt": null,
+      "closedAt": "2026-05-20T14:42:55Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -928,6 +928,13 @@
           "body": "@sergiobelotti  Line 141 in the .txt:\r\n\"   *  Fibers or other passive elements that are not currently lit or\r\n      carrying traffic, but are still part of the physical\r\n      infrastructure and require inventory representation.\"",
           "createdAt": "2026-05-07T14:36:10Z",
           "updatedAt": "2026-05-07T14:36:10Z"
+        },
+        {
+          "author": "italobusi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Superseded by #33 ",
+          "createdAt": "2026-05-20T14:42:55Z",
+          "updatedAt": "2026-05-20T14:42:55Z"
         }
       ],
       "reviews": [
@@ -983,6 +990,90 @@
               "updatedAt": "2026-05-13T14:15:10Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "id": "PR_kwDONDocYM7djJib",
+      "title": "Updated inventory definition",
+      "url": "https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/pull/33",
+      "state": "OPEN",
+      "author": "aguoietf",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-05-20T13:36:27Z",
+      "updatedAt": "2026-05-20T14:42:25Z",
+      "baseRepository": "aguoietf/draft-ygb-ivy-passive-network-inventory",
+      "baseRefName": "main",
+      "baseRefOid": "53da3cdc1a2cdf48532f668946069c54ba33d5e0",
+      "headRepository": "aguoietf/draft-ygb-ivy-passive-network-inventory",
+      "headRefName": "inventory-definition2",
+      "headRefOid": "02e82cad42538b798049baa1c1759811ba1d2ea9",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDONDocYM8AAAABAgb0Wg",
+          "commit": {
+            "abbreviatedOid": "1dfbc89"
+          },
+          "author": "github-actions",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-05-20T13:36:55Z",
+          "updatedAt": "2026-05-20T13:36:56Z",
+          "comments": [
+            {
+              "originalPosition": 25,
+              "body": "````suggestion\n\n````",
+              "createdAt": "2026-05-20T13:36:55Z",
+              "updatedAt": "2026-05-20T13:36:56Z"
+            },
+            {
+              "originalPosition": 23,
+              "body": "````suggestion\n\n````",
+              "createdAt": "2026-05-20T13:36:56Z",
+              "updatedAt": "2026-05-20T13:36:56Z"
+            },
+            {
+              "originalPosition": 21,
+              "body": "````suggestion\n\n````",
+              "createdAt": "2026-05-20T13:36:56Z",
+              "updatedAt": "2026-05-20T13:36:56Z"
+            },
+            {
+              "originalPosition": 19,
+              "body": "````suggestion\n\n````",
+              "createdAt": "2026-05-20T13:36:56Z",
+              "updatedAt": "2026-05-20T13:36:56Z"
+            },
+            {
+              "originalPosition": 15,
+              "body": "````suggestion\nWhile passive inventory generally refers to non-powered infrastructure with no direct management\ncommunication, certain exceptions exist within the scope of passive inventory with respect to\n````",
+              "createdAt": "2026-05-20T13:36:56Z",
+              "updatedAt": "2026-05-20T13:36:56Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONDocYM8AAAABAg-UoA",
+          "commit": {
+            "abbreviatedOid": "02e82ca"
+          },
+          "author": "italobusi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-05-20T14:42:25Z",
+          "updatedAt": "2026-05-20T14:42:25Z",
+          "comments": []
         }
       ]
     }
