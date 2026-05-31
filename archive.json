@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-28T03:51:19.525148+00:00",
+  "timestamp": "2026-05-31T04:04:14.761082+00:00",
   "repo": "aguoietf/draft-ygb-ivy-passive-network-inventory",
   "labels": [
     {
@@ -597,6 +597,22 @@
       "body": "For example: inter-connected cable between two operator domains, Ethernet cable between IP router and optical node.\n\nThe inter-domain link can be represented with a plug-id in the topology. \n\nThe solution for representing such cable in the physical domain in the passive inventory needs to be determined.",
       "createdAt": "2026-05-27T15:05:20Z",
       "updatedAt": "2026-05-27T15:05:20Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 35,
+      "id": "I_kwDONDocYM8AAAABDoP-FA",
+      "title": "component-ref in connected-device-end",
+      "url": "https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/issues/35",
+      "state": "OPEN",
+      "author": "bradspau",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The connected-device-end for active elements includes the leaf and defines a component-ref. The ietf-network-inventory@2026-03-19 also now includs the component-ref. ",
+      "createdAt": "2026-05-28T07:18:38Z",
+      "updatedAt": "2026-05-28T07:18:38Z",
       "closedAt": null,
       "comments": []
     }
