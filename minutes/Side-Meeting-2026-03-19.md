@@ -54,9 +54,9 @@ https://www.commscope.com/product-type/hubs-closures-terminals-boxes/access-term
 
 https://ecatalog.corning.com/optical-communications/AU/en/Fiber-Optic-Hardware/Terminals/OptiSheath%C2%AE-MultiPort-Flex-Splitter-Terminal/p/optisheath-multiport-flex-splitter-terminal
 
-Roberto has shown an example of a component which can be either passive or active depending on how it is configured:
+Roberto has shown some examples of components which can be either passive or active depending on how it is configured:
 
-- [ ] @Roberto: please add a link
+https://www.cisco.com/c/en/us/products/collateral/optical-networking/network-convergence-system-2000-series/datasheet-c78-736494.html
 
 This can be easily modelled as a component within a NE if the passive devices are modelled as NEs and passive component as components within the NE.
 
