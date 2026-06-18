@@ -5,14 +5,14 @@
 Network Inventory YANG                                            A. Guo
 Internet-Draft                                                 Futurewei
 Intended status: Standards Track                          T. V. Caenegem
-Expires: 27 November 2026                                          Nokia
+Expires: 20 December 2026                                          Nokia
                                                                 N. Davis
                                                                    Ciena
                                                               M. Tilocca
                                                                 FiberCop
                                                                B. Peters
                                                                      NBN
-                                                             26 May 2026
+                                                            18 June 2026
 
 
             A YANG Data Model for Passive Network Inventory
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 November 2026.
+   This Internet-Draft will expire on 20 December 2026.
 
 Copyright Notice
 
@@ -1010,9 +1010,9 @@ Table of Contents
               Yu, C., Belotti, S., Bouquier, J., Peruzzini, F., and P.
               Bedard, "A Base YANG Data Model for Network Inventory",
               Work in Progress, Internet-Draft, draft-ietf-ivy-network-
-              inventory-yang-17, 13 May 2026,
+              inventory-yang-18, 27 May 2026,
               <https://datatracker.ietf.org/doc/html/draft-ietf-ivy-
-              network-inventory-yang-17>.
+              network-inventory-yang-18>.
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
