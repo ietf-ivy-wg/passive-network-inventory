@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-31T04:04:14.761082+00:00",
+  "timestamp": "2026-06-25T03:49:32.496258+00:00",
   "repo": "aguoietf/draft-ygb-ivy-passive-network-inventory",
   "labels": [
     {
@@ -421,16 +421,24 @@
       "id": "I_kwDONDocYM7Afgmv",
       "title": "Shorten the co-author list",
       "url": "https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/issues/19",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "aguoietf",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Shorten the number of front-page co-authors to 5 per IETF draft guideline",
       "createdAt": "2025-07-14T17:28:10Z",
-      "updatedAt": "2025-07-14T17:28:10Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2026-06-24T12:57:06Z",
+      "closedAt": "2026-06-24T12:57:06Z",
+      "comments": [
+        {
+          "author": "aguoietf",
+          "authorAssociation": "OWNER",
+          "body": "Already updated.",
+          "createdAt": "2026-06-24T12:57:06Z",
+          "updatedAt": "2026-06-24T12:57:06Z"
+        }
+      ]
     },
     {
       "number": 21,
@@ -453,15 +461,15 @@
       "id": "I_kwDONDocYM773x1Q",
       "title": "Add definition for passive inventory",
       "url": "https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/issues/24",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "aguoietf",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Proposed definition:\n\nPassive inventory contains a collection of inventory objects pertaining to network infrastructure that are not powered and have no direct management communication, and that are used to realize the underlying physical infrastructure carrying signals through a network. Passive inventory includes elements such as optical cables, fiber segments, splice points, closures, ducts, and supporting structures that do not perform active processing, forwarding, or control functions. These objects are maintained for purposes such as identification, location, connectivity, and lifecycle management.",
       "createdAt": "2026-04-08T15:31:04Z",
-      "updatedAt": "2026-04-08T15:35:16Z",
-      "closedAt": null,
+      "updatedAt": "2026-06-24T12:53:34Z",
+      "closedAt": "2026-06-24T12:53:33Z",
       "comments": [
         {
           "author": "aguoietf",
@@ -469,6 +477,13 @@
           "body": "Meeting on 04/08/2026:\n\nAgree with the definition in general, and note that there are cases where a passive device may be considered as powered, or may be unused (not carrying signal), but can still be modeled by the passive inventory.\nAgreed to add the following note to the definition of passive inventory:\n\n(add a non-exhaustive list of conscious exceptions)\n- Add a note to indicate that in the case of e.g. raman amplifier where a fiber is performing amplification stimulated by an external pump laser, that fiber is still considered as a passive device.\n- Another exception is e.g. a splitter embedded in an active device\n- Fibers that are not lit/used",
           "createdAt": "2026-04-08T15:35:16Z",
           "updatedAt": "2026-04-08T15:35:16Z"
+        },
+        {
+          "author": "aguoietf",
+          "authorAssociation": "OWNER",
+          "body": "This has been addressed with PR #33 ",
+          "createdAt": "2026-06-24T12:53:33Z",
+          "updatedAt": "2026-06-24T12:53:33Z"
         }
       ]
     },
