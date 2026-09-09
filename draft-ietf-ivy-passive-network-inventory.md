@@ -4,7 +4,7 @@ abbrev: "Passive Network Inventory YANG Model"
 category: std
 ipr: trust200902
 
-docname: draft-ygb-ivy-passive-network-inventory-latest
+docname: draft-ietf-ivy-passive-network-inventory-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
