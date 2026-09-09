@@ -1,4 +1,3 @@
-*.bash
 *.html
 *.pdf
 *.redxml
@@ -19,8 +18,7 @@
 /versioned/
 Gemfile.lock
 archive.json
-draft-ygb-ivy-passive-network-inventory.xml
+draft-ietf-ivy-passive-network-inventory.xml
 package-lock.json
 report.xml
-temp/
 !requirements.txt
