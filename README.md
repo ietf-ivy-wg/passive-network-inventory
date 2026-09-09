@@ -2,18 +2,18 @@
 
 # A YANG Data Model for Passive Network Inventory
 
-This is the working area for the individual Internet-Draft, "A YANG Data Model for Passive Network Inventory".
+This is the working area for the IETF [IVY Working Group](https://datatracker.ietf.org/group/ivy/documents/) Internet-Draft, "A YANG Data Model for Passive Network Inventory".
 
-* [Editor's Copy](https://aguoietf.github.io/draft-ygb-ivy-passive-network-inventory/#go.draft-ygb-ivy-passive-network-inventory.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ygb-ivy-passive-network-inventory)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ygb-ivy-passive-network-inventory)
-* [Compare Editor's Copy to Individual Draft](https://aguoietf.github.io/draft-ygb-ivy-passive-network-inventory/#go.draft-ygb-ivy-passive-network-inventory.diff)
+* [Editor's Copy](https://ietf-ivy-wg.github.io/passive-network-inventory/#go.draft-ietf-ivy-passive-network-inventory.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-ivy-passive-network-inventory)
+* [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-ivy-passive-network-inventory)
+* [Compare Editor's Copy to Working Group Draft](https://ietf-ivy-wg.github.io/passive-network-inventory/#go.draft-ietf-ivy-passive-network-inventory.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/aguoietf/draft-ygb-ivy-passive-network-inventory/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-ivy-wg/passive-network-inventory/blob/main/CONTRIBUTING.md).
 
 The contributing file also has tips on how to make contributions, if you
 don't already know how to do that.
