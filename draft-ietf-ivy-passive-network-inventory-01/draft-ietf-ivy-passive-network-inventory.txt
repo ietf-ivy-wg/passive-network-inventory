@@ -1353,7 +1353,7 @@ Contributors
 
    Sergio Belotti
    Nokia
-   Email: sergio.belotti@nokia.com
+   Email: s.belotti.ietf@gmail.com
 
 
    Swaminathan 1. S.
