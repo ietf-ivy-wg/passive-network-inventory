@@ -63,7 +63,7 @@ contributor:
   -
     name: Sergio Belotti
     org: Nokia
-    email: sergio.belotti@nokia.com
+    email: s.belotti.ietf@gmail.com
   -
     fullname: Swaminathan 1. S.
     ins: S. Swaminathan
